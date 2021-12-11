@@ -1,0 +1,20 @@
+## Configuration
+## Uncomment some of the below to try them out.
+
+## Channels along the bottom
+# /set weechat.bar.buflist.position bottom
+
+## Spell check
+# /set spell.check.enabled on
+# /set spell.check.default_dict "en"
+
+# Server example
+# /server add libera irc.libera.chat/6697 -ssl
+# /set irc.server.libera.nicks "yourname,yourname2"
+
+## Add a binding for the python/go.py script
+## (NOTE: Requires enabling that script in `autorun-scripts.d`)
+# /key bind meta-g /go
+
+## Put in a print to help people find this config :)
+/print Hello from amfl/weechat's config file
