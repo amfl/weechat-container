@@ -24,7 +24,8 @@ FROM weechat/weechat:3.4-alpine
 USER root
 RUN set -eux; \
     apk add --no-cache \
-        aspell-en
+        aspell-en \
+        tzdata
 USER user
 
 # Copy _all_ the scripts over (But don't load them just yet)
