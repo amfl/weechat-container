@@ -18,7 +18,7 @@ RUN set -eux; \
     rm -rf .git/objects .git/hooks .git/logs
 
 # Source: weechat/weechat-container
-FROM weechat/weechat:3.3-alpine
+FROM weechat/weechat:3.4-alpine
 
 # Add aspell dictionary for spell checking
 USER root
